@@ -1,11 +1,11 @@
 {
-  "name": "andresjosehr-portfolio",
-  "version": "0.0.0",
+  "name": "akashbadone-portfolio",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build-portfolio": "ng build --configuration production",
+    "build-portfolio": "ng build --output-path docs --base-href /NewPortfolio/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
