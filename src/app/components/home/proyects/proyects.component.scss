@@ -40,8 +40,9 @@
                 padding: 25px;
                 background-color: $Whitetwo;
                 color: $bluetwo;
-                font-size: 18px;
+                font-size: 17px;
                 border-radius: 3px;
+                text-align: justify;
             }
             .proyect-skills {
                 position: relative;
@@ -175,7 +176,7 @@
         .proyect-info-right .proyect-box,
         .proyect-info-left .proyect-box {
             padding: 20px;
-            background: #0a192fe3;
+            background: #d9d9d9e3;
         }
     }
 }
