@@ -2,7 +2,8 @@
   "Header.Item1": "About Me",
   "Header.Item2": "Experience",
   "Header.Item3": "Projects",
-  "Header.Item4": "Contact",
+  "Header.Item4": "Achievements",
+  "Header.Item5": "Contact",
   "Header.cvBtn": "Resume",
   "Header.cvName": "AkashBadoneCV.pdf",
 
@@ -82,6 +83,7 @@
   "FeatureProjects.Projects": [
     {
       "Title": "MukhyaMantri Ladli Bahna Yojna",
+      "link": "https://cmladlibahna.mp.gov.in/kiryanban.html",
       "Description": "<b>Aim :</b> Our aim is to build a system to distribute Rs. 1000 Per Woman Per Month in MP (Total 1.25+ Cr. Beneficiaries). </br><b>Role :</b> Worked on <span class='underline'>Payment Module</span> (1000+ Cr amount disbursement per month), <span class='underline'>Reporting System</span> with (100+ Reports under a month) (1.25+ Cr records can be displayed, downloaded with various filters, and according to different user roles). and <span class='underline'>Console Application-based Schedulers</span> to send Messages (every time 1.25+ Cr.), and receive responses from API's.",
       "imgs": [
         "assets/images/lby/cmladlibahna-mp-gov-in.png",
@@ -90,85 +92,116 @@
         "assets/images/lby/LBYAppreciationFromCM.jpg",
         "assets/images/lby/ISAppreciationLBY.jpg"
       ],
-      "Technologies": ["Dot.NET WebForms", "C#", "SQL Server", "Azure (DevOps / Cloud / BLOB)"]
+      "Technologies": ["Dot.NET WebForms", "C#", "MS SQL Server", "JavaScript / JQuery", "Azure DevOps", "Azure(App Service / Functions / BLOB Storage)"]
     },
     {
       "Title": "MukhyaMantri Seekho Kamao Yojna",
+      "link": "https://mmsky.mp.gov.in/",
       "Description": "<b>Aim :</b> Our aim is to build a system to distribute Rs. 10000 Per Candidate Per Month. </br><b>Role :</b> My Role was to develop <span class='underline'>Reporting System</span>, <span class='underline'>Console Application-based Schedulers</span> to send Messages (SMS, WhatsApp, Email), and receive responses from API's.",
       "imgs": [
         "assets/images/sky/mmsky-mp-gov-in.png",
         "assets/images/sky/mmsky-mp-gov-inDashboard.png",
         "assets/images/sky/ISAppreciationSKY.jpg"
       ],
-      "Technologies": ["Dot.NET MVC", "C#", "MS SQL", "Azure DevOps", "AWS","EC2", "Route 53", "S3 Storage"]
+      "Technologies": ["Dot.NET MVC", "C#", "MS SQL Server", "JavaScript / JQuery", "Azure DevOps", "AWS (EC2, Route 53, S3, RDS)"]
     },
     {
       "Title": "MP E-Services Portal",
+      "link": "https://services.mp.gov.in/eservice/",
       "Description": "<b>Aim : </b>We aim to build a system for accessing a wide range of MPGov, Making it easier to access 1200+ services from 56+ departments.</br><b>Role : </b>My Role was to develop and maintain <span class='underline'>Anukampa Niyukti Yojna</span>, CM Young Professional Development Program, <span class='underline'>CTScan</span>, and many more other Modules. Developed Application Forms, Dashboard, and Reporting System in <span class='underline'>Angular 9</span> with REST APIs in DotNet Core using <span class='underline'>Entity Framework</span> with SQL Server. Console Application-based Schedulers to send Messages (SMS, WhatsApp Text and Document, Email).",
       "imgs": [
         "assets/images/eservice/services-mp-gov-in-eservice.png",
         "assets/images/eservice/services-mp-gov-in-login.png",
         "assets/images/eservice/citizenlogin.png"
       ],
-      "Technologies": ["Dot.NET MVC", "C#", "MS SQL", "Entity", "Material", "Angular", "Microservices"]
+      "Technologies": ["Dot.NET MVC", "C#", "MS SQL Server", "Entity Framework", "Material UI", "Angular 9 & 14", "Microservices (REST APIs)"]
     },
     {
       "Title": "MPAGRO",
+      "link": "https://mpagro.org/",
       "Description": "<b>Aim : </b>We aim to render the M.P. Agricultural Department’s Image in such a way that, each citizen of M.P. can say that we are leading the world in agriculture. </br><b>Role : </b>Front-end Designing and Backend scripting for a CMS using C# (ASP.NET) on Visual Studio and SQL Server",
       "imgs": [
         "assets/images/mpagro/mpagro-org.png",
         "assets/images/mpagro/mpagro-org-mis-Login.png",
         "assets/images/mpagro/mpagroTenders.png"
       ],
-      "Technologies": ["ASP.NET", "JavaScript / JQuery", "SQL Server", "HTML5 / CSS3" ,"Bootstrap"]
+      "Technologies": ["ASP.NET", "CloudFlare", "MS SQL Server", "HTML5 / CSS3" , "JavaScript / JQuery","Bootstrap"]
     }
   ],
 
-  "OtherProjects.Title": "More Projects",
+  "OtherProjects.Title": "Achievements",
   "OtherProjects.Projects": [
     {
-      "Title": "Hands Game",
-      "Description": "Extended rock-paper-scissors game. A personal project developed in Angular where you play randomly against the machine. It features the use of services, interfaces, and components.",
-      "imgs": ["assets/images/hands-game.png"],
-      "ghLink": "https://github.com/andresjosehr/hands-game",
-      "demoLink": "https://projects.andresjosehr.com/hands-game",
-      "Technologies": ["Angular", "CSS GRID", "SASS", "Angular animations"]
+      "Title": "Research Paper",
+      "Description": "A Computational Study and Meta-analysis of Content-Based Image Retrieval – IJATEE",
+      "imgs": "assets/images/achievements/accentsjournals.png",
+      "ghLink": "",
+      "demoLink": "https://www.accentsjournals.org/paperInfo.php?journalPaperId=1116",
+      "Technologies": ["Efficient image retrieval", "CBIR", "Computational analysis", "Data correlation"]
     },
     {
-      "Title": "Countries Viewer",
-      "Description": "Interface that consumes a countries API where you can view a list of countries, see details of each country, filter by name and region. It also has a dark mode to switch between dark and light themes.",
-      "imgs": ["assets/images/countries-viewer.png"],
-      "ghLink": "https://github.com/andresjosehr/countries-viewer",
-      "demoLink": "https://projects.andresjosehr.com/countries-viewer",
-      "Technologies": ["Angular", "RxJS", "SASS", "API"]
+      "Title": "Research Paper",
+      "Description": "A Methodological Study and Analysis of Machine Learning Algorithms – IJATEE",
+      "imgs": "assets/images/achievements/accentsjournals.png",
+      "ghLink": "",
+      "demoLink": "https://www.accentsjournals.org/paperInfo.php?journalPaperId=1119",
+      "Technologies": ["Machine Learning", "Support Vector Machine (SVM)", "K-Nearest Neighbors (KNN)", "Naïve Bayes", "Multilayer Perceptron (MLP)"]
     },
     {
-      "Title": "Four Card Feature Section",
-      "Description": "A single page with a minimalist design listing 4 features in 4 cards. Entry animations are used with Angular animations.",
-      "ghLink": "https://github.com/andresjosehr/four-card-feature-section",
-      "demoLink": "https://projects.andresjosehr.com/four-card-feature-section",
-      "Technologies": ["Angular", "SASS", "CSS GRID"]
+      "Title": "DevOps Essentials",
+      "Description": "Foundational knowledge of the basic characteristics of DevOps. Explored the concepts of breaking down silos and organize developers and operators into a single cross-functional DevOps team.",
+      "imgs": "assets/images/achievements/IBM.png",
+      "ghLink": "",
+      "demoLink": "https://www.credly.com/badges/68bc8cca-b6cc-496b-94b1-05dac3f29bc9",
+      "Technologies": ["CI & CD", "Infrastructure as Code", "Test Driven Development", "Behavior Driven Development"]
     },
     {
-      "Title": "Social Proof Section",
-      "Description": "Personal project of a page designed from a design made in Figma. Angular was used for development along with SASS and CSS GRID.",
-      "ghLink": "https://github.com/andresjosehr/social-proof-section",
-      "demoLink": "https://projects.andresjosehr.com/social-proof-section",
-      "Technologies": ["Angular", "CSS GRID", "GIT"]
+      "Title": "Geo-data sharing and Cyber Security",
+      "Description": "Achieved Certification in Geo-data sharing and Cyber Security from IIRS-ISRO",
+      "imgs": "assets/images/achievements/ISRO.jpg",
+      "ghLink": "",
+      "demoLink": "https://certificate.iirs.gov.in/",
+      "Technologies": ["IIRS", "ISRO", "Enr. No. : 20221121685005", "UID : c93f2a16be505da01c0d8fc665aa1400"]
     },
     {
-      "Title": "FAQ Accordion Card",
-      "Description": "Frequently asked questions accordion with logic and animations made in Angular.",
-      "ghLink": "https://github.com/andresjosehr/faq-accordion",
-      "demoLink": "https://projects.andresjosehr.com/faq-accordion",
-      "Technologies": ["Angular", "CSS GRID", "Angular animations"]
+      "Title": "Postman Student Expert",
+      "Description": "Postman Student Experts are proficient in the essential skills required for consuming APIs in Postman and applications.",
+      "imgs": "assets/images/achievements/postman_platform_logo.jpg",
+      "ghLink": "",
+      "demoLink": "https://badgr.com/public/assertions/CRQNLSYYStuLjHshF5v2ow",
+      "Technologies": ["API Key Authorization", "API Testing", "Performance & Load Testing", "Workspace", "Collection", "Environment"]
     },
     {
-      "Title": "Profile Card",
-      "Description": "Simple design of a page featuring a profile card with basic information of a person.",
-      "ghLink": "https://github.com/andresjosehr/profile-card-component",
-      "demoLink": "https://projects.andresjosehr.com/profile-card-component",
-      "Technologies": ["Angular", "SASS", "GIT"]
+      "Title": "TCS iON Career Edge - Young Professional",
+      "Description": "Completed Young Professional Skills Workshop from TCS ION Career Edge",
+      "imgs": "assets/images/achievements/tcs.jpg",
+      "ghLink": "",
+      "demoLink": "https://www.linkedin.com/in/akashbadone/details/certifications/1728113247697/single-media-viewer?type=DOCUMENT&profileId=ACoAAAo_QA4BET3pA_oYkI8dIiM1N7eg8jE6U4U&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3Bu7xoufGDTvWY5MsiBuYPQg%3D%3D",
+      "Technologies": ["Communication Skills", "Presentation Skills" ,"Soft Skills", "Career Guidance Framework", "Resume Writing" , "Group Discussion Skills","Interview Skills","Business Etiquette"]
+    },
+    {
+      "Title": "The Fundamentals of Digital Marketing",
+      "Description": "Completed The Fundamentals of Digital Marketing From Google",
+      "imgs": "assets/images/achievements/Google.png",
+      "ghLink": "",
+      "demoLink": "https://www.linkedin.com/in/akashbadone/details/certifications/1728111123292/single-media-viewer?type=DOCUMENT&profileId=ACoAAAo_QA4BET3pA_oYkI8dIiM1N7eg8jE6U4U&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BuKlr3MkoTMCbDEeSYuS%2FNQ%3D%3D",
+      "Technologies": ["Online Presence", "Search Engine Optimization", "Search Engine Marketing", "Social Media Marketing", "Content Writing"]
+    },
+    {
+      "Title": "LifeSkills(Software Development SoftSkills) Training Certification",
+      "Description": "Completed LifeSkills Training From Nasscom Foundation",
+      "imgs": "assets/images/achievements/nasscom.png",
+      "ghLink": "",
+      "demoLink": "https://www.linkedin.com/in/akashbadone/details/certifications/1728112611559/single-media-viewer?type=DOCUMENT&profileId=ACoAAAo_QA4BET3pA_oYkI8dIiM1N7eg8jE6U4U&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BtR0gGXouRbacgrJkA5MO%2Fg%3D%3D",
+      "Technologies": ["Soft Skills", "Effective Email Writing", "Resume Writing","Interview Skills","IT Foundational Skills"]
+    },
+    {
+      "Title": "SQL (Intermediate) Certificate",
+      "Description": "Completed SQL (Intermediate) Certificate From HackerRank",
+      "imgs": "assets/images/achievements/hackerrank.png",
+      "ghLink": "",
+      "demoLink": "https://www.hackerrank.com/certificates/757dc75bae1f",
+      "Technologies": ["Microsoft SQL Server", "Sequential Query Language"]
     }
   ],
 
